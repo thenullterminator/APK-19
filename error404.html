@@ -1,0 +1,228 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>	 <html class="no-js"> <![endif]-->
+<html>
+	
+<!-- Mirrored from www.cyrilconton.com/error404.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 01 Mar 2020 18:42:38 GMT -->
+<head>
+		<title>Page introuvable</title>
+		<meta name="theme-color" content="#ffffff">
+		<link rel="stylesheet" href="https://use.typekit.net/cjf0wsn.css">
+		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="css/devices.css">
+		<link rel="stylesheet" href="css/images.css">
+		<link rel="stylesheet" href="css/jquery.mCustomScrollbar.css">
+		<link rel="icon" href="img/favicon.ico" />
+	<link rel="icon" href="img/favicon-32.png" sizes="32x32">
+	<link rel="icon" href="img/favicon-57.png" sizes="57x57">
+	<link rel="icon" href="img/favicon-120.png" sizes="120x120">
+	<link rel="icon" href="error404.html" sizes="192x192">
+	<link rel="shortcut icon" sizes="196x196" href=error404.html>
+	<link rel="apple-touch-icon" href="img/favicon-120.png" sizes="120x120">
+	<link rel="apple-touch-icon" href="img/favicon-152.png" sizes="152x152">
+	<link rel="apple-touch-icon" href="img/favicon-180.png" sizes="180x180">
+	<link rel="apple-touch-icon" href="img/favicon-196.png" sizes="196x196">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<style>
+			svg,svg polygon,svg path,svg g, svg ellipse, svg rect, svg *{
+				transition: all ease-in-out 0.5s;
+			}
+			#eye .cls-1,
+			#eye .cls-10,
+			#eye .cls-3,
+			#eye .cls-8{fill:none;}
+
+			#eye .cls-7{fill:#fff;}
+			#eye .cls-2{fill:url(#eye-gradient_sans_nom_585);}
+			#eye .cls-3{stroke:#000;stroke-width:13px;}
+			#eye .cls-10,#eye .cls-3,#eye .cls-8{stroke-miterlimit:10;}
+			#eye .cls-4{clip-path:url(#eye-clip-path);}
+			#eye .cls-5{clip-path:url(#eye-clip-path-2);}
+			#eye .cls-6{fill:url(#eye-gradient_sans_nom_41);}
+			#eye .cls-10,#eye .cls-8{stroke:#fff;}
+			#eye .cls-8{stroke-width:4px;}
+			#eye .cls-9{clip-path:url(#eye-clip-path-3);}
+			#eye .cls-10{stroke-width:2px;}
+			#eye .cls-11{clip-path:url(#eye-clip-path-4);}
+
+			#eye{
+				transition-timing-function: cubic-bezier(.45,.05,.55,.95);
+				transition-delay:  0.25s;
+				transform: rotate(0deg) skew(0deg) scale(1, 1);
+				cursor: pointer;
+			}
+
+			#eye>polygon.cls-2{
+				transform-origin: 50% 50%;
+			}
+
+			#eye>polygon.cls-2{
+				transform: rotate(180deg) translateX(5%);
+				transition-delay: 0.15s;
+			}
+
+			#eye>polygon.cls-2{
+				transform: rotate(0deg) translateX(0%);
+			}
+
+		/*PUPILLE*/
+		#eye .pupille{
+			transform: matrix(0.75, -0.11, 0.14, 1, -2.8, 12.6);
+		}
+
+			#eye .pupille.back{
+				transform:translate(-2%,0%) skew(3deg,-2deg) matrix(0.75, -0.11, 0.14, 1, -2.8, 12.6);
+				opacity:1;
+				transition:transform 0.25s ease-in-out 0s, opacity 0s linear 0s;
+			}
+
+				#eye .pupille .cls-3{
+					transition-duration: 0.15s;
+					transition-timing-function: cubic-bezier(0,-0.03,.35,1.72);
+				}
+
+		/*------*/
+		#eye rect.cls-7:nth-of-type(2){
+			transform-origin: 65% 47.3%;
+		}
+
+		#eye .lid-down path{ /*PAUPIERE DOWN*/
+			transform: translateY(-15%);
+			transition-delay: 0s;
+			transition-timing-function: cubic-bezier(.79,.14,.15,.86);
+		}
+
+
+		#eye .lid-up path{ /*PAUPIERE UP*/
+			transition-delay: 0s;
+			transform: translateY(15%);
+			transition-timing-function: cubic-bezier(.79,.14,.15,.86);
+		}
+			#eye .lid-up path,
+			#eye .lid-down path{
+				transform: translate(0%,0%);
+				transition-delay: 0.35s;
+				animation-delay: 1s;
+			}
+
+		.diamond-back{
+			line-height: 75vh;
+		}
+		.focus .diamond-back::after{height: 100% !important;}
+
+		.full>div:nth-of-type(2){
+			max-width: 375px;
+			min-width: 150px;
+			margin-bottom:0;
+			position: relative;
+		}
+
+			.full>div:nth-of-type(2)::after{
+				content:"AÏE";
+				display: none;
+				padding: 8px;
+				position: absolute;
+				top: 0;
+				left: calc(50% - 18px);
+				font-size: 1rem;
+				background-color: #fff;
+				color: #000;
+			}
+
+			.full>div:nth-of-type(2)::before{
+				content:"";
+				display: none;
+				position: absolute;
+				top: 36px;
+				left: calc(50% - 3px);
+				border-top: solid #fff 8px;
+				border-left: solid transparent 4px;
+				border-right: solid transparent 5px;
+			}
+
+			.full>div:nth-of-type(2):active::before,
+			.full>div:nth-of-type(2):active::after{
+				display: block;
+			}
+
+		</style>
+	</head>
+	<body>
+		<main>
+			<div class="full" style="min-height:100vh; padding-bottom: 50px;max-height: unset;height: unset;">
+				<div class="diamond-back">
+					<div>
+						<div></div>
+						<div></div>
+					</div>
+				</div>
+				<div>
+					<svg id="eye" viewBox="0 0 300 391"><defs>
+						<linearGradient id="eye-gradient_sans_nom_585" x1="101.02" y1="139.5" x2="237.34" y2="261.25" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="gray"/>
+						<stop offset="0.17" stop-color="#7c7c7c"/>
+						<stop offset="0.35" stop-color="#6f6f6f"/>
+						<stop offset="0.53" stop-color="#5a5a5a"/>
+						<stop offset="0.72" stop-color="#3c3c3c"/>
+						<stop offset="0.9" stop-color="#171717"/>
+						<stop offset="1"/>
+						</linearGradient>
+						<linearGradient id="eye-gradient_sans_nom_41" x1="128.2" y1="193.63" x2="151.53" y2="84.97" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#fff" stop-opacity="0.3"/>
+						<stop offset="0.64" stop-color="#fff" stop-opacity="0"/>
+						</linearGradient>
+						</defs>
+
+							<clipPath id="eye-clip-path"><path class="cls-1" d="M37.33,178.91,139.5,330.5,241.67,215.26Z"/></clipPath>
+							<clipPath id="eye-clip-path-2"><polygon class="cls-1" points="241.67 215.26 37.33 178.91 139.5 63.67 241.67 215.26"/></clipPath>
+							<clipPath id="eye-clip-path-3"><polygon class="cls-1" points="61 182.88 208 209.12 208 268.12 61 241.88 61 182.88"/></clipPath>
+							<clipPath id="eye-clip-path-4"><polygon class="cls-1" points="61 182.88 208 209.12 208 153.12 61 126.88 61 182.88"/></clipPath>
+							<polygon class="cls-2" points="268.02 215.33 165.5 330.95 62.98 178.85 165.5 63.22 268.02 215.33"/>
+
+							<g class="pupille back">
+								<circle class="cls-3" cx="134.5" cy="200" r="26"/>
+								<circle class="cls-8" cx="134.5" cy="200" r="20.58"/>
+							</g>
+							<ellipse class="cls-7 back" cx="114.51" cy="173.36" rx="9.08" ry="12.22" transform="translate(-18.28 13.57) rotate(-6.28)"/>
+							<g class="cls-4 lid-down">	<path d="M196.13,207.16c-13,23.85-34.62,38.32-59.13,36.17-28-2.45-52.25-25.91-64.12-58.1l-41.29-7.34L32,390.5s215.41-1,215.41,0V216.29Z"/>
+							</g>
+							<g class="cls-5 lid-up"><path d="M241.67,5.26,37.81,4l-.48,174.92.48.08,34.87,6.21c12.95-24.06,34.68-38.69,59.32-36.53,28.12,2.46,52.46,26.12,64.27,58.52l45.4,8.07Z"/>
+								<rect id="white-grad" class="cls-6" x="37" y="64" width="205" height="154"/>
+							</g>
+							<g class="cls-9 lid-down"><path class="cls-10" d="M65.12,141.21c0-52.93,32.18-93,71.88-89.54s71.88,49.19,71.88,102.12-32.18,93-71.88,89.54S65.12,194.14,65.12,141.21Z"/>
+							</g>
+							<g class="cls-11 lid-up"><path class="cls-10" d="M203.88,250.79c0,52.93-32.18,93-71.88,89.54S60.12,291.14,60.12,238.21s32.18-93,71.88-89.54S203.88,197.86,203.88,250.79Z"/>
+							</g>
+					</svg>
+				</div>
+				<p style="margin: 10px auto; text-align: center;" class="date">erreur 404</p>
+				<h2 style="margin: 20px 0;">Page introuvable</h2>
+				<p style="margin: 20px 0;">Le cyclope voit tout, trouve tout.</br>Sauf cette page.</p>
+				<button style="margin-top: 20px;">
+					<a href="index-2.html">retour à l'accueil</a>
+				</button>
+			</div>
+		</main>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script>
+		$(document).ready(function(event){
+			$(".full").addClass('focus');
+		});
+		$(document).mousemove(function(event){
+			var winW = $(window).width();
+			var winH = $(window).height();
+			var svgW = $("#eye").width();
+			var svgH = $("#eye").height();
+			
+			var mousecoordx = Math.round( 0.15*((event.pageX*svgW/winW)-(0.35*svgW)) );
+			var mousecoordy = Math.round( 0.1*((event.clientY*svgH/winH)-(0.5*svgH)) );
+			
+				$("#eye .pupille").attr("style","transform:translate("+mousecoordx+"px,"+mousecoordy+"px) matrix(0.75, -0.11, 0.14, 1, -2.8, 12.6) !important;");
+				return false;
+		});
+	</script>
+	</body>
+
+<!-- Mirrored from www.cyrilconton.com/error404.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 01 Mar 2020 18:42:44 GMT -->
+</html>
